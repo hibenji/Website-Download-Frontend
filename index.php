@@ -57,9 +57,7 @@ ini_set('max_execution_time', 300);
 
         $website = urlencode($_POST["url"]);
 
-
         $url = file_get_contents("$backend_url:3000/url/$website");
-
 
         if($url == "ERROR"){
           echo "Faulty URL!";
