@@ -32,7 +32,7 @@ ini_set('max_execution_time', 300);
         <div class="field">
           <label class="label">URL</label>
           <div class="control">
-            <input class="input" id="url" name="url" type="url" placeholder="https://benji.link">
+            <input style="max-width: 375px" class="input" id="url" name="url" type="url" placeholder="https://benji.link">
           </div>
         </div>
 
