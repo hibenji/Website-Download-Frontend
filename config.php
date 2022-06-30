@@ -1,7 +1,7 @@
 <?php
 
 return array(
-    'backend-url' => 'http://download.benji.link',
+    'backend-url' => '<your-back-end-url-here>',
 );
 
 ?>
